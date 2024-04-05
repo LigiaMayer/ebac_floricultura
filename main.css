@@ -1,0 +1,64 @@
+
+.navbar {
+    background-color:#d087ed ;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color:#d087ed
+}
+/*Aqui estiliizaremos o nav-link que esta dentro da nav */
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,         /* se esquecer dessa , o item abaixo não funciona*/
+.nav-curso .nav-link.active:hover {
+    color: white;
+}
+
+
+
+.purple-icon {
+        color: rgb(169, 51, 167);
+    }
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.section-title {
+    font-family: Pacifico,cursive;
+}
+
+#sobre-a-floricultura  #curso {
+    background-color: #f2eff3;
+}
+
+.text-colored{
+    color: rgb(169, 51, 167);
+
+}
+
+.nav-curso .nav-link.active,
+#fale-conosco button {
+    background-color:rgb(169, 51, 167) ;
+    color: #f2eff3
+}
+
+.nav-curso .nav-link:hover{
+    color:rgb(169, 51, 167)
+} 
+
+.social-links li{
+    list-style:none;
+    display:inline    /*um ao lado do outro*/
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height:200px,
+    }
+}
